@@ -50,12 +50,12 @@ ul {
   padding: 10px;
 }
 
-.nav-main ul li a{
-    padding: 4px;
+.nav-main ul li a {
+  padding: 4px;
 }
 
-.nav-main ul li a:hover{
-    border-bottom: 2px solid #ffffff;
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #ffffff;
 }
 
 .nav-main ul.nav-menu {
@@ -63,3 +63,43 @@ ul {
   margin-left: 20px;
 }
 
+/*  SHOWCASE */
+
+hr{
+  margin: 10px 0;
+}
+.showcase {
+  width: 100%;
+  height: 550px;
+  background: url("img/showcase2.jpg") no-repeat center center/cover;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: 10px 20px;
+  background: #262626;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #ffff;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
